@@ -1,6 +1,9 @@
-/* import font family */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+/* import font family from local file*/
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(/font/Roboto-Bold.ttf);
+  }
+  
 /* layout */
 
 .container {
@@ -25,7 +28,7 @@ p {
 /* style */
 
 p::before {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Roboto-Bold, Times, serif;
     content: 'Font Family (Roboto): ';
 }
 
