@@ -1,8 +1,66 @@
-h1::before {
-    font-family: 'Times New Roman', Times, serif;
-    content: 'Hola ';
+/* layout */
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
+.card {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+}
+
+p {
+    margin: 40px;
+}
+
+/* style */
+
+p::before {
+    font-family: 'Times New Roman', Times, serif;
+    content: 'Font Family (Roboto): ';
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+
+p {
     font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    /* calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+    /* min:10px max 32 */
+    font-size: calc(10px + (32 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-style: italic;
+    text-shadow: 2px 2px 4px black;
+
+    letter-spacing: .2rem;
+    line-height: 4.6rem;
+    text-transform: lowercase;
+    /* background: black;
+    opacity: 80%; */
+}
+
+.container {
+    background-color: #3291AB;
+}
+
+.card {
+    border: 10px solid #FF7D00;
+    border-radius: 3rem;
+
+    /*  offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: -32px 32px 22px 12px rgba(0, 0, 0, 0.2);
+
+    background: url('pic.jpg');
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
