@@ -1,0 +1,8 @@
+h1::before {
+    font-family: 'Times New Roman', Times, serif;
+    content: 'Hola ';
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
