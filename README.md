@@ -1,6 +1,6 @@
 # text-styles-and-css-properties
-Lab about More Text Styles More CSS Properties in The odin Project
+Lab about More Text Styles and CSS Properties in [The Odint Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css)
 
-## Acknowledgements
+## Tools
  - [Adobe color](https://color.adobe.com/es/create/color-wheel)
-
+ - [Google Font](https://fonts.google.com/specimen/Roboto)
