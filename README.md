@@ -1,5 +1,5 @@
 # Laboratory
-the purpose of this lab is to apply in different way [Font Family](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-more-text-styles), also use [css style](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-more-css-properties).
+the purpose of this lab is to apply in different way [Font Family](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-more-text-styles), also use [CSS style](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-more-css-properties).
 
 ![Goal to achieve](https://github.com/chrisart10/text-styles-and-css-properties/blob/main/goal.PNG)
 
